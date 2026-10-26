@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "클로드 설명"
 ---
 **[Slide 1]**
