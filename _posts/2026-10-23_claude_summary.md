@@ -1,6 +1,6 @@
 ----
-layout: single
-title: 클로드 설명2
+layout: post
+title: "클로드 설명2"
 ----
 #유튜브 주소
 #https://www.youtube.com/watch?v=La7sir6uVjw&list=WL&index=4
