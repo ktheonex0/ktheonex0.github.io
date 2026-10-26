@@ -1,10 +1,13 @@
-----
+---
 layout: post
 title: "클로드 설명2"
-----
+date: 2026-10-24
+---
+<br>
 #유튜브 주소
+<br>
 #https://www.youtube.com/watch?v=La7sir6uVjw&list=WL&index=4
-
+<br>
 # [특집] 클로드(Claude) 80분 총정리: 챗봇을 에이전트로 바꾸는 10단계 마스터 클래스
 
 <br>
