@@ -1,5 +1,5 @@
 ----
-layout: single
+layout: post
 title: 클로드 설명
 ----
 **[Slide 1]**
