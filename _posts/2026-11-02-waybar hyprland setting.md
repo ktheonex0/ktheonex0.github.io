@@ -40,10 +40,13 @@ nano ~/.config/waybar/launch.sh
 #!/bin/bash
 # 기존 실행 중인 waybar 종료
 killall waybar
-
+```
+```bash
 # 백그라운드에서 waybar 실행
 waybar &
+```
 
+```bash
 # 설정 파일이 변경되면 자동으로 waybar 재시작
 while inotifywait -e create,modify ~/.config/waybar/config.jsonc ~/.config/waybar/style.css; do
     killall waybar
