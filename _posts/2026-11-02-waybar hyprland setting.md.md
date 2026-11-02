@@ -36,7 +36,6 @@ nano ~/.config/waybar/launch.sh
 ```
 
 2. 아래 스크립트를 붙여넣고 저장합니다:
-
 ```bash
 #!/bin/bash
 # 기존 실행 중인 waybar 종료
