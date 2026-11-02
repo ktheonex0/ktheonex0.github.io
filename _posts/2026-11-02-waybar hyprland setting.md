@@ -34,7 +34,6 @@ touch ~/.config/waybar/style.css
 ```bash
 nano ~/.config/waybar/launch.sh
 ```
-
 2. 아래 스크립트를 붙여넣고 저장합니다:
 ```bash
 #!/bin/bash
@@ -45,7 +44,6 @@ killall waybar
 # 백그라운드에서 waybar 실행
 waybar &
 ```
-
 ```bash
 # 설정 파일이 변경되면 자동으로 waybar 재시작
 while inotifywait -e create,modify ~/.config/waybar/config.jsonc ~/.config/waybar/style.css; do
@@ -53,7 +51,6 @@ while inotifywait -e create,modify ~/.config/waybar/config.jsonc ~/.config/wayba
     waybar &
 done
 ```
-
 3. 스크립트에 실행 권한을 부여합니다:
 ```bash
 chmod +x ~/.config/waybar/launch.sh
